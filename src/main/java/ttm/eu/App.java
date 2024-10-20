@@ -22,6 +22,7 @@ public class App {
     @Bean
     public CommandLineRunner execute() {
         return args -> {
+            /*
             //------------------ WAY 1 --------------------
             Set<Link> visitedLinks = new HashSet<>();
             Set<Link> nonDiscoveredLinks = new HashSet<>();
@@ -86,6 +87,7 @@ public class App {
             }
 
             driver.quit();
+            */
         };
     }
 }
